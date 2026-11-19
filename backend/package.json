@@ -1,0 +1,22 @@
+{
+  "name": "edutrack-secure-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTTPS backend for EduTrack QR attendance on Firebase Spark",
+  "main": "src/server.js",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "firebase-admin": "^14.5.0",
+    "helmet": "^8.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}
